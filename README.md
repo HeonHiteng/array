@@ -1,9 +1,5 @@
 # 2D Array
 Grade multiple-choice test
-
-package array;
-
-public class arrays{
 	
 	public static void main(String args[]){
 		
