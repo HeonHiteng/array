@@ -1,28 +1,15 @@
 # 2D Array
 Grade multiple-choice test
+
+The problem is to write a program that grades multiple-choice tests. Suppose there are eight students and ten questions, and the answers are stored in a two-dimensional array. Each row records a student’s answers to the questions, as shown in the following array.
+
+The key is stored in a one-dimensional array:
+Key to the Questions: 
+0  1  2  3  4  5  6  7  8  9
+D  B  D  C  C  D  A  E  A  D
+
+Your program grades the test and displays the result. It compares each student’s answers with
+the key, counts the number of correct answers, and displays it.
+
 	
-	public static void main(String args[]){
-		
-		char[][] answers = {
-			{'A', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
-			{'D', 'B', 'A', 'B', 'C', 'A', 'E', 'E', 'A', 'D'},
-			{'E', 'D', 'D', 'A', 'C', 'B', 'E', 'E', 'A', 'D'},
-			{'C', 'B', 'A', 'E', 'D', 'C', 'E', 'E', 'A', 'D'},
-			{'A', 'B', 'D', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
-			{'B', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
-			{'B', 'B', 'A', 'C', 'C', 'D', 'E', 'E', 'A', 'D'},
-			{'E', 'B', 'E', 'C', 'C', 'D', 'E', 'E', 'A', 'D'}};
-			
-			char []scheme =  {'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D'};
-			
-			for (int i = 0; i <answers.length; i++){
-				int mark = 0;
-				for (int j = 0; j <answers[i].length; j++){
-					if (answers[i][j] == scheme[j])
-						mark++;
-				}
-				
-				System.out.println("Student " + i + " get " + mark +" mark.");
-			}
-	}
-}
+	
