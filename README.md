@@ -5,7 +5,9 @@ The problem is to write a program that grades multiple-choice tests. Suppose the
 
 The key is stored in a one-dimensional array:
 Key to the Questions: 
+
 0  1  2  3  4  5  6  7  8  9
+
 D  B  D  C  C  D  A  E  A  D
 
 Your program grades the test and displays the result. It compares each student’s answers with
